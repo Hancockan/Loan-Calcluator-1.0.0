@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_amoritization_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#f7ffb6"
+    android:gravity="center_horizontal"
+    tools:context="com.hancockalc.andrewhancock.loancalculator10.AmoritizationTutorial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/roundedcornerlightskintone"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="Amoritization Schedules"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <TextView
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedcornerdarkerskintone"
+        android:textSize="20dp"
+        android:text="An amoritization schedule will tell you how much of the principal has been payed off in a given month. This is known as equity. It can be calculated by the equation (monthly payment - interest). An amoritization schedule is on a per month basis and assumes that each monthly payment is equal."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp" />
+
+    <Button
+        android:id="@+id/back_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedcornerssalmon"
+        android:text="Back"/>
+</LinearLayout>
